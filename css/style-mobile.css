@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+    /*features section start*/
+    .feature-card {
+        width: 100%;
+    }
+    /*features section end*/
+
+    /*branding section start*/
+    #branding {
+        padding: 0;
+    }
+    #branding .row {
+        flex-direction: column-reverse;
+    }
+    .branding_img {
+        width: 100%;
+        overflow: hidden;
+    }
+    .branding_info {
+        width: 100%;
+        padding: 50px 30px;
+    
+    }
+    /*branding section end*/
+
+    /*service section start*/
+    #service .row {
+        flex-direction: column-reverse;
+    }
+    .service_container{
+        width: 100%;
+        
+    }
+
+    .service_info{
+        width: 100%;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .counter{
+        justify-content: flex-start;
+    }
+
+    /*service section end*/
+}

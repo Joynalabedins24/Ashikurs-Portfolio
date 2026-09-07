@@ -1,0 +1,26 @@
+@media (max-width: 900px) {
+    /*features section start*/
+    #features .row {
+        justify-content: space-around;
+    }
+
+    .feature-card {
+        width: calc(45% - 10px);
+    }
+    /*features section end*/
+
+    /*branding section start*/
+    .branding_img {
+        width: 35%;
+        overflow: hidden;
+    }
+
+    .branding_info {
+        width: 60%;
+        padding-top: 83px;
+        padding-right: 60px;
+    }
+
+    /*branding section end*/
+}
+
