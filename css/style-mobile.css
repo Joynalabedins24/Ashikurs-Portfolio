@@ -43,4 +43,53 @@
     }
 
     /*service section end*/
+
+
+
+    #experience {
+        padding: 50px 0;
+    }
+
+    #experience h1 {
+        font-size: 28px;
+    }
+
+    .experience-table {
+        display: block;
+    }
+
+    .experience-table tbody,
+    .experience-table tr {
+        display: block;
+        width: 100%;
+    }
+
+    .experience-table tr {
+        min-height: 180px;
+        height: auto;
+        position: relative;
+    }
+
+    .experience-left {
+        display: block;
+        width: 40%;
+        padding-right: 20px;
+    }
+
+    .divider {
+        position: absolute;
+        left: 40%;
+        top: 0;
+        width: 0;
+        height: 100%;
+    }
+
+    .experience-right {
+        display: block;
+        width: 60%;
+        margin-left: 40%;
+        padding-left: 30px;
+        
+    }
+
 }

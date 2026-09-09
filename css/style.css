@@ -356,3 +356,133 @@ nav {
 
 
 /* service section end*/
+
+
+
+
+
+
+/*  Experience start*/
+
+#experience {
+    padding: 70px 0;
+    background: #fff;
+}
+
+#experience h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+/* Table */
+
+.experience-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+/* Left Side */
+
+.experience-left {
+    width: 30%;
+    padding-right: 20px;
+    vertical-align: top;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.experience-left h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.experience-left p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Middle Divider */
+
+.divider {
+    width: 50px;
+    position: relative;
+
+    /* Table border */
+    border-left: 2px dotted #999;
+
+    vertical-align: top;
+}
+
+/* Circle */
+
+.dot {
+    position: absolute;
+
+    width: 18px;
+    height: 18px;
+
+    top: 0px;
+    left: -10px;
+
+    border-radius: 50%;
+    border: 2px dashed #999;
+
+    background: #fff;
+}
+
+/* Inner colored circle */
+
+.dot::after {
+    content: "";
+
+    position: absolute;
+
+    width: 10px;
+    height: 10px;
+
+    top: 2px;
+    left: 2px;
+
+    border-radius: 50%;
+}
+
+/* Circle Colors */
+
+.green::after {
+    background: #4caf76;
+}
+
+.red::after {
+    background: #f26b70;
+}
+
+.yellow::after {
+    background: #ffc928;
+}
+
+/* Right Side */
+
+.experience-right {
+    width: 55%;
+    padding-left: 40px;
+    vertical-align: top;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.experience-right h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.experience-right p {
+    max-width: 600px;
+
+    font-size: 14px;
+    line-height: 1.9;
+
+    color: #777;
+}
+
+/*  Experience end*/
