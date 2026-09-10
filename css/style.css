@@ -486,3 +486,182 @@ nav {
 }
 
 /*  Experience end*/
+
+/* Expartise section start */
+
+.expertise_dtls{
+    width: 55%;
+    
+}
+.expertise_dtls h1{
+    font-size: 50px;
+    margin-bottom: 48px;
+}
+
+.expertise_dtls p{
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.expertise_dtls .btn-outline{
+    background-color: var(--primary);
+    color: var(--text-2);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+
+#expartise .row{
+    align-items: stretch;
+}
+.expertises {
+    width: 40%;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    overflow: visible;
+    border: none;
+    background: transparent;
+}
+
+.tab button {
+    width: 45%;
+    height: 48px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-radius: 16px;
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+/* Active Tab */
+.tab button.active {
+    border: 1px solid var(--border);
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Hover */
+.tab button:hover {
+    background: #f8f8f8;
+}
+
+
+/* Tab Content */
+.tabcontent {
+    display: none;
+    padding: 0;
+    border: none;
+}
+
+/* Skills */
+.skill_item {
+    margin-bottom: 44px;
+}
+
+.skill_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill_header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.skill_header span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*  Progress Background */
+
+.progress {
+    width: 100%;
+    height: 6px;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* =========================
+   Progress Bar
+========================= */
+
+.progress_bar {
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Figma */
+.figma {
+    width: 85%;
+    background: #ff6500;
+}
+
+/* Photoshop */
+.photoshop {
+    width: 75%;
+    background: #0b2da3;
+}
+
+/* XD */
+.xd {
+    width: 80%;
+    background: #790064;
+}
+
+/* Illustrator */
+.illustrator {
+    width: 70%;
+    background: #3155e7;
+}
+
+/* Percentage Colors */
+.skill_item:nth-child(1) .skill_header span {
+    color: #ff6500;
+}
+.skill_item:nth-child(2) .skill_header span {
+    color: #0b2da3;
+}
+.skill_item:nth-child(3) .skill_header span {
+    color: #790064;
+}
+.skill_item:nth-child(4) .skill_header span {
+    color: #3155e7;
+}
+
+/* Education */
+.education_item {
+    margin-bottom: 30px;
+}
+
+.education_item h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.education_item p {
+    font-size: 14px;
+    color: var(--secondary-text);
+    margin-bottom: 5px;
+}
+
+.education_item span {
+    font-size: 13px;
+    color: var(--secondary-text);
+}
+
+/* Expartise section end */

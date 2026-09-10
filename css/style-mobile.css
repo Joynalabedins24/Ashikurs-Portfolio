@@ -45,7 +45,7 @@
     /*service section end*/
 
 
-
+    /*experience section start*/
     #experience {
         padding: 50px 0;
     }
@@ -91,5 +91,16 @@
         padding-left: 30px;
         
     }
+    /*experience section end*/
+
+    /*expertise section start*/
+    .expertise_dtls{
+        width: 100%;
+    }
+
+    .expertises {
+        width: 100%;
+    }
+    /*expertise section end*/
 
 }
