@@ -501,6 +501,7 @@ nav {
 .expertise_dtls p{
     font-size: 18px;
     line-height: 1.2;
+    color: var(--secondary-text);
 }
 
 .expertise_dtls .btn-outline{
@@ -665,3 +666,65 @@ nav {
 }
 
 /* Expartise section end */
+
+
+/* My service section start */
+#my-service{
+    background-color: #FFF7D5;
+    padding: 70px 0px;
+}
+#my-service .row{
+    align-items: flex-end;
+}
+.my-service-dtls{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.my-service-dtls h1{
+    font-size: 50px;
+    margin-bottom: 13px;
+}
+
+.my-service-dtls p{
+    font-size: 18px;
+    color: var(--secondary-text);
+}
+
+.service_item{
+    width: 32%;
+    border-radius: 12px;
+    text-align: center;
+    padding: 32px 50px;
+    margin: 30px 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    background-color: var(--bg);
+
+}
+
+.service_item:nth-child(2) {
+    background-color: var(--primary);
+    padding: 50px 50px;
+}
+.service_item h3{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.service_item p{
+    font-size: 16px;
+    color: var(--secondary-text);
+}
+.service_item_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.service_item_icon img{
+    width: 88px;
+}
+
+
+
+/* My service section end */
